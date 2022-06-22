@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div
+      style={{
+        display: "flex",
+        backgroundColor: "white",
+        height: "100vh",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <div>
+        <h1 class="fade-in-text" style={{ fontSize: "3.5rem" }}>
+          Hi, congrats you can clone me!
+        </h1>
+        <h3
+          class="fade-in-text1"
+          style={{ marginTop: "-1.25rem", color: "gray" }}
         >
-          Learn React
-        </a>
-      </header>
+          From: Haksa Ganteng 😎
+        </h3>
+        <h3
+          class="fade-in-text2"
+          style={{ marginTop: "-0.75rem", color: "gray" }}
+        >
+          To: You who read this message 😁
+        </h3>
+      </div>
     </div>
   );
 }
 
-export default App;
