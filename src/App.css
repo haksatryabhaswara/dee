@@ -1,4 +1,4 @@
-.fade-in-text { animation: fadeIn ease 3s; animation-fill-mode: forwards; opacity: 0;}
+.fade-in-text { animation: fadeIn ease 3s; animation-fill-mode: forwards}
 .fade-in-text1 { animation: fadeIn ease 3s; animation-delay: 2s; animation-fill-mode: forwards; opacity: 0;}
 .fade-in-text2 { animation: fadeIn ease 3s; animation-delay: 4s; animation-fill-mode: forwards; opacity: 0;}
 @keyframes fadeIn {
