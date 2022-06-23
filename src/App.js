@@ -14,7 +14,7 @@ export default function App() {
     >
       <div>
         <h1 class="fade-in-text" style={{ fontSize: "3.5rem" }}>
-          Hi, congrats you can clone me! 💮
+          Hi, congrats you can clone me!
         </h1>
         <h3
           class="fade-in-text1"
